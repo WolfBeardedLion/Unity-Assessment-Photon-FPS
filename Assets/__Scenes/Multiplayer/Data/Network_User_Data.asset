@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24aae46e35b8324c99f222003f3e654, type: 3}
+  m_Name: Network_User_Data
+  m_EditorClassIdentifier: 
+  id: 0
+  username: Player 6980
+  totalScore: 0
+  missedShotScorePenalty: 0
+  prefab: {fileID: 1271970599584546540, guid: 206b4a6dd714853429cb28698ed513a9, type: 3}
+  defaultMaterial: {fileID: 2100000, guid: 466ebc32ce5cfd542b76e749cd808f68, type: 2}
+  defaultColor: {r: 0, g: 1, b: 0, a: 1}
+  movementSpeed: 2
+  runSpeed: 6
+  runMaxStamina: 10
+  rateOfStaminaLoss: 3
+  rateOfStaminaGain: 2
+  rotationSpeed: 1.46
+  yRotationLimit: 87
+  activeWeaponIndex: 0
+  weaponsEquippedIndexes: 00000000
+  weaponInventory:
+  - {fileID: 11400000, guid: 9d20ef87e12d55b48a808aa6d8e299c5, type: 2}
+  currentRunStamina: 10
+  playerMeshRenderer: {fileID: 0}

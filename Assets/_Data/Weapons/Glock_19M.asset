@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf9f1639c519274290cb69ce5063279, type: 3}
+  m_Name: Glock_19M
+  m_EditorClassIdentifier: 
+  id: 0
+  label: Glock 19M
+  scoreModifier: 1
+  prefab: {fileID: 659321459352694861, guid: c12c669508e465742a62b2bbd50c16fc, type: 3}
+  defaultBarrelMaterial: {fileID: 2100000, guid: 0f7f5f702e05ae543976093c34a624c0,
+    type: 2}
+  defaultBarrelColor: {r: 0.1254902, g: 0.16470589, b: 0.21176472, a: 1}
+  defaultHandleMaterial: {fileID: 2100000, guid: 0f7f5f702e05ae543976093c34a624c0,
+    type: 2}
+  defaultHandleColor: {r: 0.1254902, g: 0.16470589, b: 0.21176472, a: 1}
+  weaponDistance: 53
+  rateOfFirePerSecond:
+  - 0.334
+  currentRateOfFireIndex: 0
+  ammoCapacity: 15
+  reloadSeconds: 2.5
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  weaponBarrelMeshRenderer: {fileID: 0}
+  weaponHandleMeshRenderer: {fileID: 0}

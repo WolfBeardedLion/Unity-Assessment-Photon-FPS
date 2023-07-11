@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1af4151e730a94b908c3f443ace674, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  label: Rocky_At_Dusk
+  scoreGoalThresholds: 64000000f4010000b0040000
+  prefab: {fileID: 8133287408115404482, guid: 2b7a0b7f909657741a72af271767cace, type: 3}
+  skymapMaterial: {fileID: 2100000, guid: 03389866351d19a47adc95c57d054097, type: 2}
+  skymapRotation: 90
+  floorMaterial: {fileID: 2100000, guid: 395def56f962b5b4e9b2f3f4dae9c9b9, type: 2}
+  directionLightTemperature: 6500
+  primaryDirectionLightIntensity: 1.25
+  secondaryDirectionLightIntensity: 0.15
+  targetGroups:
+  - label: Small Static Target Group
+    target: {fileID: 11400000, guid: 83f375b26120aa04891c1724af4ed3a6, type: 2}
+    numberOfTargetsInGroup: 12
+    xDistanceBetweenTargetsRange: {x: 6, y: 16}
+    yDistanceBetweenTargetsRange: {x: 0.5, y: 3}
+    zDistanceBetweenTargetsRange: {x: 6, y: 16}
+  playerStartingPosition: {x: 0, y: 0, z: -5}
+  targetDataList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetGameObjectList: []
